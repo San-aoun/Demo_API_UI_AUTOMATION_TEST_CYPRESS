@@ -1,8 +1,6 @@
-# Cypress ReqRes Project
-
 ## What is the project
 
-This project is a Cypress-based testing suite for the ReqRes API and UI. It includes automated tests for both API endpoints and the user interface of the ReqRes website. The tests are written in TypeScript and organized using the Page Object Model (POM) pattern to enhance maintainability and readability.
+This project is a Cypress-based testing suite for the ReqRes API and UI. It includes automated tests for both API endpoints and the user interface of the ReqRes website: https://reqres.in . The tests are written in TypeScript and organized using the Page Object Model (POM) pattern to enhance maintainability and readability.
 
 ## How to install
 
@@ -16,37 +14,28 @@ This project is a Cypress-based testing suite for the ReqRes API and UI. It incl
 Ensure you have Node.js installed, then run:
 `npm install`
 
-2. **How to run the project:**
-2.1 Open Cypress Test Runner:
-`npm run cy:open` : This will open the Cypress Test Runner where you can run tests interactively.
-2.2 Run all tests:
-`npm test` : This will run all the tests in headless mode.
-2.3 Run specific tests:
-`npm run cy:run:ui`: This will run only the UI tests located in cypress/e2e/ui/ui_test.cy.ts.
-`npm run cy:run:api` : This will run only the API tests located in cypress/e2e/api/api_test.cy.ts.
+3. **How to run the project:**
+   
+   3.1 ***Open Cypress Test Runner:***
+   
+      `npm run cy:open` : This will open the Cypress Test Runner where you can run tests interactively.
+   
+   3.2 ***Run all tests:***
+   
+      `npm test` : This will run all the tests in headless mode.
+   
+   3.3 ***Run specific tests:***
+   
+      `npm run cy:run:ui`: This will run only the UI tests located in cypress/e2e/ui/ui_test.cy.ts.
+   
+      `npm run cy:run:api` : This will run only the API tests located in cypress/e2e/api/api_test.cy.ts.
 
-4. **Structure of the project**
-The project structure is organized as follows:
+5. **Structure of the project**
+   
+   The project structure is organized as follows:
 
-cypress-reqres-project/
-├── cypress/
-│   ├── e2e/
-│   │   ├── api/
-│   │   │   └── api_test.cy.ts
-│   │   ├── ui/
-│   │   │   └── ui_test.cy.ts
-│   ├── fixtures/
-│   │   └── testData.json
-│   ├── support/
-│   │   ├── commands.ts
-│   │   ├── index.ts
-│   │   └── uiPageObjects.ts
-├── node_modules/
-├── .gitignore
-├── cypress.config.js
-├── package.json
-├── tsconfig.json
-└── README.md
+      ![image](https://github.com/user-attachments/assets/3726e3f2-39fc-4d76-8764-fb6150a60ea5)
+
 
 
 - cypress/e2e/api/: Contains API test files.
