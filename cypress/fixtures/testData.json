@@ -1,0 +1,15 @@
+{
+    "newUser": {
+      "name": "John",
+      "job": "leader"
+    },
+    "updatedUser": {
+      "name": "Jane Updated",
+      "job": "senior developer"
+    },
+    "invalidUser": {
+      "name": "",
+      "job": "unknown"
+    }
+  }
+  

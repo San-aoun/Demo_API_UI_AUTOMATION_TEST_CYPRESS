@@ -1,0 +1,31 @@
+{
+  "name": "cypress-reqres-project",
+  "version": "1.0.0",
+  "description": "Cypress project for ReqRes API and UI testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run:ui": "cypress run --spec 'cypress/e2e/ui/ui_test.cy.ts'",
+    "cy:run:api": "cypress run --spec 'cypress/e2e/api/api_test.cy.ts'"
+  },
+  "keywords": [
+    "Cypress",
+    "ReqRes",
+    "API",
+    "UI",
+    "Testing"
+  ],
+  "author": "Piyathida.San-aoun",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/node": "^18.0.0",
+    "cypress": "^12.0.0",
+    "typescript": "^4.9.0"
+  },
+  "dependencies": {
+    "@types/chai": "^5.0.0",
+    "process": "^0.11.10"
+  }
+}
