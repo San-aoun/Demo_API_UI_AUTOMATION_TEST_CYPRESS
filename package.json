@@ -7,7 +7,8 @@
     "test": "cypress run",
     "cy:open": "cypress open",
     "cy:run:ui": "cypress run --spec 'cypress/e2e/ui/ui_test.cy.ts'",
-    "cy:run:api": "cypress run --spec 'cypress/e2e/api/api_test.cy.ts'"
+    "cy:run:api": "cypress run --spec 'cypress/e2e/api/api_test.cy.ts'",
+    "cy:run:ui_distibusion": "cypress run --spec 'ui_test_distibusion.cy.ts'"
   },
   "keywords": [
     "Cypress",
