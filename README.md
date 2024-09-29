@@ -1,6 +1,6 @@
 ## What is the project
 
-This project is a Cypress-based testing suite for the ReqRes API and UI. It includes automated tests for both API endpoints and the user interface of the ReqRes website: https://reqres.in . The tests are written in TypeScript and organized using the Page Object Model (POM) pattern to enhance maintainability and readability.
+This project is a Cypress-based testing suite for the ReqRes API and UI. It includes automated tests for both API endpoints and the user interface of the ReqRes website: https://reqres.in and https://careers.distribusion.com/. The tests are written in TypeScript and organized using the Page Object Model (POM) pattern to enhance maintainability and readability.
 
 ## How to install
 
