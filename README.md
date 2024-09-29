@@ -28,7 +28,15 @@ Ensure you have Node.js installed, then run:
    
       `npm run cy:run:ui`: This will run only the UI tests located in cypress/e2e/ui/ui_test.cy.ts.
    
+https://github.com/user-attachments/assets/3e30a43f-fb58-4854-8f21-1bbceb56b01b
+
+https://github.com/user-attachments/assets/25598d23-fbd0-4a0a-94b7-57ec4abe22a2
+
       `npm run cy:run:api` : This will run only the API tests located in cypress/e2e/api/api_test.cy.ts.
+
+https://github.com/user-attachments/assets/8ad092de-ec83-4b2a-b926-3a5432718693
+
+
 
 5. **Structure of the project**
    
